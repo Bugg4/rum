@@ -16,6 +16,6 @@ Now you can run `rum wine-staging-pba-3.7-1-x86_64 ./wineprefix wine app.exe` wh
 You can also run `rum` without any arguments to get usage information and a list of the wine versions you have available.
 
 ## Todo:
-- [] Search another directory for wine versions e.g: $XDG_DATA_HOME/wines
-- [] Implement an overlayfs based system for wine prefixes that share the same version of wine to deduplicate files and speed up creation.
+- [ ] Search another directory for wine versions e.g: `$XDG_DATA_HOME/wines`
+- [ ] Implement an overlayfs based system for wine prefixes that share the same version of wine to deduplicate files and speed up creation.
     
